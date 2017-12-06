@@ -1,0 +1,537 @@
+Dependencies for Project 'ble_bluchip_s110_with_dfu', Target 'nrf51422_xxac_s110': (DO NOT MODIFY !)
+F (..\..\..\main.c)(0x58F701B7)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_hci.h)(0x56407687)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\ble\common\ble_advdata.h)(0x56407685)
+I (..\..\..\..\..\..\components\ble\ble_advertising\ble_advertising.h)(0x56407685)
+I (..\..\..\..\..\..\components\ble\common\ble_conn_params.h)(0x56407685)
+I (..\..\..\bluchip_board.h)(0x58EF1AE0)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\softdevice_handler.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_sdm.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_sdm.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\timer\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\trace\app_trace.h)(0x56407685)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56407685)
+I (..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.h)(0x56407685)
+I (..\..\..\ahc.h)(0x58F70227)
+I (..\..\..\ble_ahc_service.h)(0x58F46C4A)
+F (..\..\..\ble_ahc_service.c)(0x58F46C4A)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\ble_ahc_service.o --omf_browse .\_build\ble_ahc_service.crf --depend .\_build\ble_ahc_service.d)
+I (..\..\..\ble_ahc_service.h)(0x58F46C4A)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+F (..\..\..\..\..\..\components\libraries\button\app_button.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\app_button.o --omf_browse .\_build\app_button.crf --depend .\_build\app_button.d)
+I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\timer\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x56407685)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpiote.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\..\..\config\nrf_drv_config.h)(0x577E0222)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56407685)
+F (..\..\..\..\..\..\components\toolchain\arm\arm_startup_nrf51.s)(0x5640769C)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\toolchain -I C:\Keil_v5\ARM\ARMCC\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "BLE_DFU_APP_SUPPORT SETA 1" --pd "BLE_STACK_SUPPORT_REQD SETA 1" --pd "S110 SETA 1" --pd "SWI_DISABLE0 SETA 1" --pd "SOFTDEVICE_PRESENT SETA 1" --pd "NRF51 SETA 1"--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (..\..\..\..\..\..\components\toolchain\system_nrf51.c)(0x5640769C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+F (..\..\..\..\..\..\components\ble\common\ble_advdata.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
+I (..\..\..\..\..\..\components\ble\common\ble_advdata.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56407685)
+F (..\..\..\..\..\..\components\ble\ble_advertising\ble_advertising.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\ble_advertising.o --omf_browse .\_build\ble_advertising.crf --depend .\_build\ble_advertising.d)
+I (..\..\..\..\..\..\components\ble\common\ble_advdata.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\ble\ble_advertising\ble_advertising.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\trace\app_trace.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\drivers_nrf\pstorage\pstorage.h)(0x56407685)
+I (..\..\..\config\pstorage_platform.h)(0x577E0222)
+F (..\..\..\..\..\..\components\ble\common\ble_conn_params.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
+I (..\..\..\..\..\..\components\ble\common\ble_conn_params.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_hci.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\timer\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+F (..\..\..\..\..\..\components\ble\ble_services\ble_dfu\ble_dfu.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\ble_dfu.o --omf_browse .\_build\ble_dfu.crf --depend .\_build\ble_dfu.d)
+I (..\..\..\..\..\..\components\ble\ble_services\ble_dfu\ble_dfu.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+F (..\..\..\..\..\..\components\ble\ble_services\ble_dis\ble_dis.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\ble_dis.o --omf_browse .\_build\ble_dis.crf --depend .\_build\ble_dis.d)
+I (..\..\..\..\..\..\components\ble\ble_services\ble_dis\ble_dis.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+F (..\..\..\..\..\..\components\ble\common\ble_srv_common.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+F (..\..\..\..\..\..\components\ble\device_manager\device_manager_peripheral.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\device_manager_peripheral.o --omf_browse .\_build\device_manager_peripheral.crf --depend .\_build\device_manager_peripheral.d)
+I (..\..\..\..\..\..\components\ble\device_manager\device_manager.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (..\..\..\config\device_manager_cnfg.h)(0x577E0222)
+I (..\..\..\..\..\..\components\libraries\trace\app_trace.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\drivers_nrf\pstorage\pstorage.h)(0x56407685)
+I (..\..\..\config\pstorage_platform.h)(0x577E0222)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_hci.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+F (..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.h)(0x56407685)
+F (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\nrf_drv_common.o --omf_browse .\_build\nrf_drv_common.crf --depend .\_build\nrf_drv_common.d)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_soc.h)(0x56407687)
+F (..\..\..\..\..\..\components\drivers_nrf\gpiote\nrf_drv_gpiote.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\nrf_drv_gpiote.o --omf_browse .\_build\nrf_drv_gpiote.crf --depend .\_build\nrf_drv_gpiote.d)
+I (..\..\..\..\..\..\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x56407685)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpiote.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56407685)
+I (..\..\..\config\nrf_drv_config.h)(0x577E0222)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56407685)
+F (..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\nrf_drv_uart.o --omf_browse .\_build\nrf_drv_uart.crf --depend .\_build\nrf_drv_uart.d)
+I (..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.h)(0x56407685)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_uart.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\config\nrf_drv_config.h)(0x577E0222)
+I (..\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+F (..\..\..\..\..\..\components\drivers_nrf\pstorage\pstorage.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\pstorage.o --omf_browse .\_build\pstorage.crf --depend .\_build\pstorage.d)
+I (..\..\..\..\..\..\components\drivers_nrf\pstorage\pstorage.h)(0x56407685)
+I (..\..\..\config\pstorage_platform.h)(0x577E0222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_soc.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+F (..\..\..\..\..\..\components\libraries\util\app_error.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\app_error.o --omf_browse .\_build\app_error.crf --depend .\_build\app_error.d)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+F (..\..\..\..\..\..\components\libraries\fifo\app_fifo.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\app_fifo.o --omf_browse .\_build\app_fifo.crf --depend .\_build\app_fifo.d)
+I (..\..\..\..\..\..\components\libraries\fifo\app_fifo.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+F (..\..\..\..\..\..\components\libraries\timer\app_timer.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
+I (..\..\..\..\..\..\components\libraries\timer\app_timer.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x56407685)
+F (..\..\..\..\..\..\components\libraries\trace\app_trace.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\app_trace.o --omf_browse .\_build\app_trace.crf --depend .\_build\app_trace.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+F (..\..\..\..\..\..\components\libraries\bootloader_dfu\bootloader_util.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\bootloader_util.o --omf_browse .\_build\bootloader_util.crf --depend .\_build\bootloader_util.d)
+I (..\..\..\..\..\..\components\libraries\bootloader_dfu\bootloader_util.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\bootloader_dfu\bootloader_types.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (..\..\..\..\..\..\components\libraries\bootloader_dfu\dfu_app_handler.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\dfu_app_handler.o --omf_browse .\_build\dfu_app_handler.crf --depend .\_build\dfu_app_handler.d)
+I (..\..\..\..\..\..\components\libraries\bootloader_dfu\dfu_app_handler.h)(0x56407685)
+I (..\..\..\..\..\..\components\ble\ble_services\ble_dfu\ble_dfu.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\ble\common\ble_srv_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\libraries\bootloader_dfu\bootloader_types.h)(0x56407685)
+I (..\..\..\..\..\..\components\ble\device_manager\device_manager.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x56407685)
+I (..\..\..\config\device_manager_cnfg.h)(0x577E0222)
+I (..\..\..\..\..\..\components\libraries\bootloader_dfu\bootloader_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_sdm.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_sdm.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\bootloader_dfu\dfu_ble_svc.h)(0x56407685)
+I (..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.h)(0x56407685)
+F (..\..\..\..\..\..\components\libraries\util\nrf_assert.c)(0x56407685)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\nrf_assert.o --omf_browse .\_build\nrf_assert.crf --depend .\_build\nrf_assert.d)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56407685)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+F (..\..\..\..\..\..\components\softdevice\s110\doc\s110_nrf51_8.0.0_licence-agreement.txt)(0x54EDC52F)()
+F (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\softdevice_handler.c)(0x56407687)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I ..\..\..\..\..\..\components\toolchain\gcc -I ..\..\..\..\..\..\components\ble\ble_advertising -I ..\..\..\..\..\..\components\ble\ble_services\ble_dfu -I ..\..\..\..\..\..\components\ble\ble_services\ble_dis -I ..\..\..\..\..\..\components\ble\common -I ..\..\..\..\..\..\components\ble\device_manager -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\gpiote -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\pstorage -I ..\..\..\..\..\..\components\drivers_nrf\config -I ..\..\..\..\..\..\components\libraries\bootloader_dfu -I ..\..\..\..\..\..\components\libraries\fifo -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\trace -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\softdevice\common\softdevice_handler -I ..\..\..\..\..\..\components\softdevice\s110\headers -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DBLE_DFU_APP_SUPPORT -DBLE_STACK_SUPPORT_REQD -DS110 -DSWI_DISABLE0 -DSOFTDEVICE_PRESENT -DNRF51-o .\_build\softdevice_handler.o --omf_browse .\_build\softdevice_handler.crf --depend .\_build\softdevice_handler.d)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\softdevice_handler.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_sdm.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_svc.h)(0x56407687)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cm0.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmInstr.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\gcc\core_cmFunc.h)(0x56407687)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x5640769B)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x5640769B)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_soc.h)(0x56407687)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_soc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\nrf_error_sdm.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x56407685)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x56407685)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_ranges.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_l2cap.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_err.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatt.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gattc.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\s110\headers\ble_gatts.h)(0x56407687)
+I (..\..\..\..\..\..\components\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x56407687)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x56407685)

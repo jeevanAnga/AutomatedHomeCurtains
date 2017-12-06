@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jeevan Raj Angamuthu, RobotsInvented.asia, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      TARMCM1.DLL V1.12.0.0
+Target DLL:      CMSIS_AGDI.dll V1.27.5.0
+Dialog DLL:      TARMCM1.DLL V1.12.0.0
+ 
+<h2>Project:</h2>
+C:\Users\jeeva\OneDrive\Documents\FL\BluChip Automated Home Curtain\nRF51_SDK_10.0.0_dc26b5e\examples\ble_peripheral\ble_bluchip\bluchip\s110_with_dfu\arm4\ble_bluchip_s110_with_dfu.uvproj
+Project File Date:  04/13/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'nrf51422_xxac_s110'
+assembling arm_startup_nrf51.s...
+compiling ble_ahc_uarts.c...
+compiling ble_bgs.c...
+compiling ble_advdata.c...
+compiling ble_conn_params.c...
+compiling ble_dis.c...
+compiling ble_dfu.c...
+compiling system_nrf51.c...
+compiling ble_srv_common.c...
+compiling main.c...
+..\..\..\ahc.h(120): warning:  #223-D: function "digitalWrite" declared implicitly
+    digitalWrite(stepperMotorDriverInputPin1A, LOW);
+..\..\..\ahc.h(124): warning:  #223-D: function "delayMicroseconds" declared implicitly
+    delayMicroseconds(stepperMotorStepDelay);
+..\..\..\ahc.h(127): warning:  #223-D: function "digitalWrite" declared implicitly
+    digitalWrite(stepperMotorDriverInputPin1A, LOW);
+..\..\..\ahc.h(131): warning:  #223-D: function "delayMicroseconds" declared implicitly
+    delayMicroseconds(stepperMotorStepDelay);
+..\..\..\ahc.h(134): warning:  #223-D: function "digitalWrite" declared implicitly
+    digitalWrite(stepperMotorDriverInputPin1A, HIGH);
+..\..\..\ahc.h(138): warning:  #223-D: function "delayMicroseconds" declared implicitly
+    delayMicroseconds(stepperMotorStepDelay);
+..\..\..\ahc.h(141): warning:  #223-D: function "digitalWrite" declared implicitly
+    digitalWrite(stepperMotorDriverInputPin1A, HIGH);
+..\..\..\ahc.h(145): warning:  #223-D: function "delayMicroseconds" declared implicitly
+    delayMicroseconds(stepperMotorStepDelay);
+..\..\..\ahc.h(150): warning:  #223-D: function "digitalWrite" declared implicitly
+    digitalWrite(stepperMotorDriverInputPin1A, LOW);
+..\..\..\ahc.h(182): error:  #20: identifier "Bounce" is undefined
+  Bounce debouncerLimitSwitchOpened = Bounce();
+..\..\..\ahc.h(182): error:  #20: identifier "Bounce" is undefined
+  Bounce debouncerLimitSwitchOpened = Bounce();
+..\..\..\ahc.h(182): error:  #59: function call is not allowed in a constant expression
+  Bounce debouncerLimitSwitchOpened = Bounce();
+..\..\..\ahc.h(184): error:  #757: "Bounce"  is not a type name
+  Bounce debouncerLimitSwitchClosed = Bounce();
+..\..\..\ahc.h(184): error:  #59: function call is not allowed in a constant expression
+  Bounce debouncerLimitSwitchClosed = Bounce();
+..\..\..\ahc.h(204): warning:  #223-D: function "micros" declared implicitly
+    if ((long)(micros() - openDebounceLastMicros) >= openDebounceTime * 1000)
+..\..\..\ahc.h(239): warning:  #223-D: function "micros" declared implicitly
+    if ((long)(micros() - closeDebounceLastMicros) >= closeDebounceTime * 1000)
+..\..\..\ahc.h(256): warning:  #223-D: function "pinMode" declared implicitly
+    pinMode(13, OUTPUT); //Configure motor status led as output
+..\..\..\ahc.h(256): error:  #20: identifier "OUTPUT" is undefined
+    pinMode(13, OUTPUT); //Configure motor status led as output
+..\..\..\ahc.h(277): error:  #20: identifier "INPUT_PULLUP" is undefined
+    pinMode(
+penLimitSwitchPin, INPUT_PULLUP);
+..\..\..\ahc.h(280): warning:  #223-D: function "attachInterrupt" declared implicitly
+    attachInterrupt(digitalPinToInterrupt(openLimitSwitchPin), openLimitSwitchInterrupt, FALLING);
+..\..\..\ahc.h(280): warning:  #223-D: function "digitalPinToInterrupt" declared implicitly
+    attachInterrupt(digitalPinToInterrupt(openLimitSwitchPin), openLimitSwitchInterrupt, FALLING);
+..\..\..\ahc.h(280): error:  #20: identifier "FALLING" is undefined
+    attachInterrupt(digitalPinToInterrupt(
+penLimitSwitchPin), openLimitSwitchInterrupt, FALLING);
+..\..\..\ahc.h(283): warning:  #223-D: function "digitalWrite" declared implicitly
+    digitalWrite(13, LOW); //Turn motor status led off
+..\..\..\main.c(85): warning:  #550-D: variable "m_light_status"  was set but never used
+  static Light_Status_t					 m_light_status = LIGHT;					
+..\..\..\main.c: 16 warnings, 8 errors
+compiling ble_advertising.c...
+compiling nrf_delay.c...
+compiling nrf_drv_common.c...
+compiling app_fifo.c...
+compiling nrf_drv_uart.c...
+compiling nrf_drv_gpiote.c...
+compiling device_manager_peripheral.c...
+compiling app_trace.c...
+compiling bootloader_util.c...
+compiling pstorage.c...
+compiling app_error.c...
+compiling nrf_assert.c...
+compiling app_timer.c...
+compiling dfu_app_handler.c...
+compiling softdevice_handler.c...
+".\_build\nrf51422_xxac_s110.axf" - 8 Error(s), 16 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
